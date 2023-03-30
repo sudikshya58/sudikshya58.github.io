@@ -1,0 +1,116 @@
+*{
+
+    
+    font-family:sans-serif;
+    background-color: black;
+  ;
+    
+
+}
+.part1{
+    
+background-color: rb(166, 156, 156);
+background-size: 100%;
+position: relative;
+
+}
+.header{
+  
+    
+}
+
+.image{
+    height: 100%;
+    float: right;
+
+
+}
+.logo{
+    float: left;
+}
+
+
+.navbar{
+    
+    
+    float: right;
+}
+.navbar li{
+   display: inline-block;
+    
+    
+}
+.navbar li a{
+font-family: sans-serif;
+font-size: 14px;
+color:whitesmoke;
+text-decoration: none;
+padding: 20px;
+margin:5px;
+
+   
+}
+.detail{
+    color:antiquewhite;
+}
+.detail  h1 .name {
+    color:red;
+}
+
+
+.aboutme1{
+    float: right;
+    box-sizing: border-box;
+    width:50%;
+    
+}
+.photo{
+    position: relative;
+    
+}
+
+
+
+/* .image{
+    position:absolute;
+    float: left;
+}
+
+
+bo
+.aboutme1{
+
+
+box-sizing: border-box;
+
+width:60%;
+height:20%;
+float: right;
+position: relative;
+color: rgb(23, 60, 48);
+
+
+
+color: whitesmoke;
+} */
+
+
+.contact{
+    background-color: rgb(161, 127, 255);
+    position: absolute;
+    width: 100%;
+}
+
+.leftrow{
+    float: left;
+}
+.rightrow{
+    float: right;
+    
+}
+
+
+
+
+
+
