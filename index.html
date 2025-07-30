@@ -1,45 +1,118 @@
-*<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome">
-    <script src="portfolio.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudikshya Kafle | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    
-       
-       <header>
-        <a href="#" class="logo"><span>sudikshya</span></a>
-        <div class="navbar">
-        <a href="# Home">Home</a>
-        <a href="#About ">About</a>
-        <a href="# Services">Services</a>
-        <a href="./">Experiences</a>
-        <a href="#Portfolio ">Portfolio</a>
-        <a href="#Contact ">Contact</a>
+  <header>
+    <div class="container">
+      <h1 class="logo">Sudikshya</h1>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <div class="follow">
-        <a href="# "></a>
-    </div>
-       </header>
-       
+  </header>
 
-       <div class="home">
-        <div class="left">
-            <h1><span>Hi There</span></h1><br>
-            <h1 >I AM <span>Sudikshya Kafle</span><br></h1>
-           <h2 class="front"> I Am A Front-End Developer </h2>
-            <p>I like to craft solid and scalable frontend products with great<br> user experiences.</p>
-            <button class="aboutme">About Me*</button>
-        </div>
-        <div class="right">
-            <img src="img.jpg.png" alt="" srcset="">
-        </div>
-       </div>
-       
+  <section id="home" class="home-section">
+    <div class="content">
+      <h2>Hi, I'm <span>Sudikshya Kafle</span></h2>
+      <p>Creative and impact-driven Frontend Developer specializing in React.js, Redux, and modern web development practices.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am a frontend developer with a passion for building clean, scalable, and high-performance web applications. I bring strong experience in React, Tailwind, REST APIs, and modern workflows, and I’m currently expanding into Fabric.js and Three.js for more interactive UIs.</p>
+    <p>Based in Pokhara and Kathmandu | <strong>9863900782</strong> | <strong>mesudikshyakafle@gmail.com</strong></p>
+    <p><a href="https://sudikshyakafle.com.np" target="_blank">sudikshyakafle.com.np</a> | GitHub: <a href="https://github.com/sudikshya58" target="_blank">sudikshya58</a> | GitLab: <a href="https://gitlab.com/mesudikshyakafle" target="_blank">mesudikshyakafle</a></p>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>BSc. CSIT - Bhaktapur Multiple Campus, Nepal (2019–2023)</li>
+    </ul>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Frontend Developer</strong>, SiliconTechNepal (Jul 2023 – Present)<br>
+        Built scalable UI components in React.js and Redux; led projects like Rara Foods and Quaba, improved performance by 23%.
+      </li>
+      <li><strong>WordPress Developer</strong>, PrixnaIT Solutions (Oct 2022 – Feb 2023)<br>
+        Built and customized themes for e-commerce websites like PrixnaMart and LoveKush.
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project">
+        <h3>Quaba (NGO Dashboard)</h3>
+        <p>Real-time dashboard using React.js + Firebase (Firestore/Auth). Scalable modular design.</p>
+        <a href="https://quabafoundation-54e9b.web.app" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Rara Foods</h3>
+        <p>Food delivery frontend in React.js + Tailwind. Integrated secure login, product & order APIs.</p>
+        <a href="https://rarafoods.com.au" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>Loan Eligibility Predictor</h3>
+        <p>Built with React frontend and Flask backend with logistic regression.</p>
+        <a href="https://loanprediction-nine.vercel.app" target="_blank">View Project</a>
+      </div>
+      <div class="project">
+        <h3>PrixnaMart</h3>
+        <p>Responsive WooCommerce site with full cart & checkout flow.</p>
+        <a href="https://prixnamart.com" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <ul class="skills">
+      <li>JavaScript (ES6+)</li>
+      <li>TypeScript</li>
+      <li>React.js</li>
+      <li>Redux / Context API</li>
+      <li>Tailwind CSS / Bootstrap</li>
+      <li>React Query</li>
+      <li>Firebase / Flask / Node.js</li>
+      <li>RESTful APIs</li>
+      <li>MongoDB / MySQL / Firestore</li>
+      <li>Git / GitHub / GitLab / Jira</li>
+      <li>CI/CD / Vercel / Agile-Scrum</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:mesudikshyakafle@gmail.com">mesudikshyakafle@gmail.com</a></p>
+    <p>Phone: 9863900782</p>
+    <div class="social">
+      <a href="https://github.com/sudikshya58" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://gitlab.com/mesudikshyakafle" target="_blank"><i class="fab fa-gitlab"></i></a>
+      <a href="https://sudikshyakafle.com.np" target="_blank"><i class="fas fa-globe"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sudikshya Kafle. All rights reserved.</p>
+  </footer>
 </body>
 </html>
